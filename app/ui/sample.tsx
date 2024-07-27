@@ -17,7 +17,7 @@ export default function Page() {
             <div className="w-[50vw] flex flex-wrap">
                 {languages.map((language : any) => {
                     return (
-                        <div className="w-[33%] p-2">
+                        <div key={language.name} className="w-[33%] p-2">
                         <Image
                         src={language.url}
                         alt={`${language.name} Icon`}
