@@ -15,8 +15,8 @@ const links = [
 export default function Home() {
 
   return (
-    <main className="w-[90vw] h-[100%] mx-auto mb-[18vh] 
-    flex flex-col items-end md:w-[65vw] md:min-h-[90vh] md:mx-auto md:mt-2 md:mb-4">
+    <main className="w-[90vw] h-[100%] mx-auto mb-0
+    flex flex-col order-1 md:order-2 items-end md:w-[65vw] md:min-h-[90vh] md:mx-auto md:mt-2 md:mb-4">
       <HomeIcon className="w-[45px] h-[45px] relative top-0 right-0 mb-2 invisible md:visible" />
       <div className="flex flex-col justify-around items-center bg-primary-back w-[100%] h-[100%] rounded-lg p-2 ">
         <div className="flex flex-col items-center p-4 w-[85vw] md:w-[75%]">

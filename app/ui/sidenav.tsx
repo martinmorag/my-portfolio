@@ -18,8 +18,8 @@ export default function Sidenav() {
 
     return (     
         <>
-            <div className="flex fixed bottom-0 w-[90vw] h-[13vh] mb-3 mx-auto left-1/2 transform -translate-x-1/2 rounded-md md:mx-4 md:mb-4 mt-[100px] md:py-4 bg-primary-back 
-            md:relative md:block md:w-[22vw] md:h-[400px] md:mx-auto">
+            <div className="flex w-[90vw] h-[13vh] mb-3 mx-auto rounded-md 
+            md:mx-4 md:mb-4 mt-[1rem] md:mt-[100px] md:py-4 bg-primary-back md:relative md:block md:w-[22vw] md:h-[400px] md:mx-auto">
                 <Image
                 src="/myself.jpg"
                 alt="Photo of myself"

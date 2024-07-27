@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="w-[90vw] h-[100%] mx-auto mb-[18vh] 
-    flex flex-col items-end md:w-[65vw] md:min-h-[90vh] md:mx-auto md:mt-2 md:mb-4">
+    <main className="w-[90vw] h-[100%] mx-auto mb-0
+    flex flex-col order-1 md:order-2 items-end md:w-[65vw] md:min-h-[90vh] md:mx-auto md:mt-2 md:mb-4">
         <CommandLineIcon className="w-[45px] h-[45px] relative top-0 right-0 mb-2 invisible md:visible"/>
         <div className="flex flex-col items-center h-[100%] w-[100%] bg-primary-back rounded-lg pb-5">
           <div className="flex flex-col items-center">

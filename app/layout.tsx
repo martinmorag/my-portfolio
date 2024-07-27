@@ -17,11 +17,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${raleway.className} min-h-full bg-custom-gradient bg-cover bg-center`}>
         <div className="flex flex-col md:flex-row flex-grow min-h-screen">
-            <div className="flex flex-col justify-start items-center mx-auto">
+            <div className="flex flex-col order-2 md:order-1 justify-start items-center mx-auto">
               <Sidenav />
             </div>
             {children}
-          </div>
+        </div>
       </body>
     </html>
   );
