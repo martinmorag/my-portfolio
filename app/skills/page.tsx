@@ -42,7 +42,7 @@ export default function Page() {
             <h1 className="text-[1.8rem] text-center pt-[3rem]">My Projects</h1>
               {projects.map((project) => {
                 return (
-                  <div key={language.name} className="w-[80vw] md:w-[35vw] pt-4">
+                  <div key={project.name} className="w-[80vw] md:w-[35vw] pt-4">
                     <h3 className="mt-3 mb-2">{project.name}</h3>
                     <Link
                     href={project.url}>
