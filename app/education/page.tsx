@@ -20,14 +20,14 @@ export default function Page() {
         className="w-[150px] h-[auto] my-[2.5rem]"
         ></Image>
         <div className="flex flex-col items-center w-[80%]">
-          <div className="flex justify-between my-4 text-[1.25rem] font-bold">
+          <div className="flex justify-between my-4 text-[1rem] font-bold md:text-[1.25rem]">
             <h3 className="w-[40%]">Certificate of Web and Computer Programming</h3>
             <p className="flex-end">Received on July of 2023</p>
           </div>
           <p className="leading-relaxed">Writing of programs for various domains, designed effective websites, developed dynamic web pages following industry standards, and continually learned new technologies.</p>
         </div>
-        <div className="flex flex-col items-center w-[80%]">
-          <div className="flex justify-between my-4 text-[1.25rem] font-bold">
+        <div className="flex flex-col items-center w-[80%] pt-[2.5rem]">
+          <div className="flex justify-between my-4 text-[1rem] font-bold md:text-[1.25rem]">
             <h3 className="w-[50%] pr-[5rem]">Certificate of Sofware Development</h3>
             <p>Received on July of 2024</p>
           </div>
