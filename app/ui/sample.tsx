@@ -1,6 +1,6 @@
 import { CommandLineIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import { languages } from "@/app/ui/languages";
+import { languages } from "@/app/ui/exports";
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
