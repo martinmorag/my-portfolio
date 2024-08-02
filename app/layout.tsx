@@ -4,9 +4,11 @@ import Sidenav from "@/app/ui/sidenav";
 import "./global.css";
 
 export const metadata: Metadata = {
-  title: "Martin Moraga's Portfolio",
+  title: `Martin Moraga's Portfolio`,
   description: "Hi, this is Martin Moraga, welcome to this website",
 };
+
+
 
 export default function RootLayout({
   children,

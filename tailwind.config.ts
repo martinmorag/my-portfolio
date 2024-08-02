@@ -5,6 +5,7 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/flowbite-react/lib/**/*.js",
   ],
   theme: {
     extend: {
@@ -21,8 +22,13 @@ const config: Config = {
       backgroundColor: {
         'custom-bg': '#ecc083',
       },
+      dropShadow : {
+        "gray" : "0 3px 3px rgba(141, 144, 155, 0.5)"
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 };
 export default config;

@@ -45,7 +45,8 @@ export default function Page() {
                   <div key={project.name} className="w-[80vw] md:w-[35vw] pt-4">
                     <h3 className="mt-3 mb-2">{project.name}</h3>
                     <Link
-                    href={project.url}>
+                    href={project.url}
+                    target="_blank">
                     <Image
                     src={project.image}
                     alt={project.name}
