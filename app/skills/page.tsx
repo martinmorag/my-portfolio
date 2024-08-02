@@ -56,6 +56,15 @@ export default function Page() {
                     className="transition-transform transition-[0.5s] transition-ease-in-out rounded-lg shadow-md shadow-[black] hover:scale-105"
                     ></Image>
                     </Link>
+                    { project.email && (
+                      <div className="pl-4 pb-2 pt-2 mt-2 w-[100%] rounded-md">
+                        <h2 className="text-[1.1rem] font-bold text-primary">Try the app with this account</h2>
+                        <h3 className="text-md mt-2 text-primary font-bold">Email</h3>
+                        <p className="text-sm">{project.email}</p>
+                        <h3 className="text-md mt-2 text-primary font-bold">Password</h3>
+                        <p className="text-sm">{project.password}</p>
+                      </div>
+                    )}
                   </div>
                 )
               })}

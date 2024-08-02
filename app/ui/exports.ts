@@ -83,5 +83,5 @@ export const languages = [
 
 export const projects = [
     {name: "Ecommerce website", url: "https://ecommerce-app-pied-three.vercel.app", image: "/ecommerce.png"},
-    {name: "Announcements Website", url: "https://announcements-app.onrender.com/dashboard", image: "/announcements.png"}
+    {name: "Announcements Website", url: "https://announcements-app.onrender.com/dashboard", image: "/announcements.png", email: "guest@example.com", password: "contraseña"}
 ]
