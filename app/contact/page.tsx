@@ -22,8 +22,8 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="flex w-[75vw] justify-start 
-                        md:justify-around items-center md:w-[23vw] h-[13.5vh] text-lg">
-                            <div className="flex justify-center items-center bg-primary text-[white] w-[60px] h-[60px]">
+                        md:justify-around items-center md:w-[24vw] h-[13.5vh] text-lg">
+                            <div className="flex justify-center items-center bg-primary text-[white] w-[60px] h-[60px] md:mr-2">
                                 <EnvelopeIcon className="w-[30px] h-[30px]"/>
                             </div>
                             <div className="flex flex-col pl-3 md:pl-0">
